@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>PHP login system</title>
+
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+</head>
+<body>
+    <div id = "frm">
+      <a href="index.html"> <h1> login</h1> </a>
+      <a href="registration.html"> <h1 class="active">register</h1></a>
+        <form name="f1" action = "registration.php" onsubmit = "return validation()" method = "POST">
+            <p>
+              <label>Email ID:</label>
+              <input type="email" name="email" />
+            </p>
+            <p>
+                <label> UserName: </label>
+                <input type = "text" id ="user" name  = "name" />
+            </p>
+            <p>
+                <label> Password: </label>
+                <input type = "password" id ="pass" name  = "pass" />
+            </p>
+            <p>
+                <input type =  "submit" id = "btn" value = "Register" />
+            </p>
+        </form>
+    </div>
+
+    <script>
+            function validation()
+            {
+                var id=document.f1.user.value;
+                var ps=document.f1.pass.value;
+                var email=document.f1.email.value;
+                if(id.length=="" && ps.length=="" && email.length="") {
+                    alert("User Name and Password fields are empty");
+                    return false;
+                }
+                else
+                {
+                    if(id.length=="") {
+                        alert("User Name is empty");
+                        return false;
+                    }
+                    if (ps.length=="") {
+                    alert("Password field is empty");
+                    return false;
+                    }
+                    if (email.length=="") {
+                    alert("Email field is empty");
+                    return false;
+                    }
+                }
+            }
+        </script>
+</body>
+</html>

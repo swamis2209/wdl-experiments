@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>CRUD</title>
+  </head>
+  <body>
+
+    <div>
+      <h1>user information</h1>
+    <form name="f1 " class="crud" action="crud.php" method="post" onsubmit="return validation()">
+      <p>
+      <label for="name">First Name:</label>
+      <input type="text" name="fname" value="" />
+      </p>
+      <p>
+      <label for="name">Last Name:</label>
+      <input type="text" name="lname" value="" />
+      </p>
+      <p>
+      <label for="email">Email ID :</label>
+      <input type="text" name="email" value=""/>
+      </p>
+      <p>
+      <label for="number">Phone no :</label>
+      <input type="text" name="number" value=""/>
+      </p>
+      <input class='submit' type="submit" name="" value="create record">
+      <a href="crud.php">check records</a>
+    </form>
+    </div>
+
+    <script>
+      function validation()
+      {
+          var fname=document.f1.fname.value;
+          var lname=document.f1.lname.value;
+            var email=document.f1.email.value;
+              var number=document.f1.number.value;
+          if(fname.length=="" && lname.length==""  && email.length==""  && number.length=="") {
+              alert("required fields are empty ");
+              return false;
+          }
+          else
+          {
+              if(fname.length=="") {
+                  alert("User first Name is empty");
+                  return false;
+              }
+              if(lname.length=="") {
+                  alert("User last Name is empty");
+                  return false;
+              }
+              if(email.length=="") {
+                  alert("User email is empty");
+                  return false;
+              }
+              if(number.length=="") {
+                  alert("User Number is empty");
+                  return
+                   false;
+              }
+          }
+      }
+  </script>

@@ -1,0 +1,70 @@
+body{
+    background:linear-gradient(white,black,white);
+
+}
+#frm{
+    border: solid gray 1px;
+    width:30%;
+    border-radius: 15px;
+    margin: 180px auto;
+    background: white;
+    padding: 50px;
+    background: -webkit-linear-gradient(black,white,black);
+
+}
+#btn{
+    color: #fff;
+    background: black;
+    padding: 7px;
+    margin-left: 70%;
+}
+h2{
+  text-align: center;
+  color: white;
+  font-size: 200%;
+}
+input{
+  color: white;
+  background: black;
+  height:30px;
+  border-radius: 10px;
+  width: 40%;
+}
+label{
+  color: black;
+  font-size: 30px;
+}
+h1 {
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  display: inline-block;
+  text-align: center;
+  margin:0 auto;
+  padding: 5px;
+  border-radius: 10px;
+
+}
+#lgr{
+
+  margin:auto;
+  width: 30%;
+  text-align: center;
+}
+
+.active{
+  background-color: rgba(0,0,0,1);
+}
+a{
+  text-decoration: none;
+  margin-left:70px ;
+}
+#fgpw{
+  background-color: rgba(0,0,0,1);
+  color: white;
+  display: inline-block;
+  text-align: center;
+  margin:0 auto;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 150%;
+}
