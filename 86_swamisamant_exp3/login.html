@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=0.7, minimum-scale=0.7">
+    <script src="https://kit.fontawesome.com/fe7341e2e0.js" crossorigin="anonymous"></script>
+    <title>webpage</title>
+    <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+    <div class="header">
+        <div class="box">
+            <div class="navigation">
+                <ul>
+                    <li><a href="website.html">Home</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="">Login/Register</a></li>
+                    <li><a href="website.html">Contact us</a></li>
+                </ul>
+                <div class="logo">
+                    <!--<img src="store1.jpg"/>-->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="account-page">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-2">
+                        <div class="forms">
+                            <span onclick="login()">Login</span>
+                            <span onclick="reg()">Register</span>
+                            <hr id="indi" />
+                            <form id="loginform">
+                                <input type="text" placeholder="username" />
+                                <input type="password" placeholder="password" />
+                                <button type="submit" class="btn">Login</button>
+                                <a href="">Forget password </a>
+                            </form>
+                            <form id="regform">
+                                <input type="text" placeholder="username" />
+                                <input type="email" placeholder="E-mail" />
+                                <input type="password" placeholder="password" />
+                                <button type="submit" class="btn">Register</button>
+
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    var loginform = document.getElementById("loginform");
+    var regform = document.getElementById("regform");
+    var indi = document.getElementById("indi");
+
+    function reg() {
+        regform.style.transform = "translateX(0px)";
+        loginform.style.transform = "translateX(0px)";
+        indi.style.transform = "translateX(60px)";
+    }
+    function login() {
+        regform.style.transform = "translateX(400px)";
+        loginform.style.transform = "translateX(400px)";
+        indi.style.transform = "translateX(-60px)";
+    }
+</script>

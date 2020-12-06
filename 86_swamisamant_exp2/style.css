@@ -1,0 +1,219 @@
+header{
+  display: inline-block;
+  background-image: -webkit-linear-gradient(top,rgba(22,22,229,0.8),rgba(22,22,229,0.2));
+  width:94rem;
+  height: auto;
+  font-size: 125%;
+
+}
+
+h2,h3{
+  text-align: center;
+}
+h2{
+  background:white;
+  color: black;
+  background: rgba(23,23,119,0.5);
+}
+.right h2{
+  margin:0.8rem 15rem;
+  background: rgba(178,178,255,0.2);
+  font-size: 200%;
+
+}
+.left>h2{
+  margin-bottom: 7rem;
+  margin-top: 5rem;
+}
+
+header img{float: left;
+  display: inline-block;
+  width: 12rem;
+  height:auto;
+  margin:2rem 2rem;
+  margin-left: 3rem;
+  border: solid thick;
+}
+
+header h1{
+  clear: both;
+  display: inline-block;
+  text-align: center;
+  padding-left: 30rem;
+  text-shadow: 2px 2px rgb(100,100,100);
+}
+nav{
+
+  text-align: center;
+}
+.left a {
+  text-decoration: none;
+  color: rgb(255,255,255);
+}
+.left a h3:hover {
+  background-color: black;
+}
+.right p{
+  margin-left: 10rem;
+  font-size: 125%;
+}
+ul{
+  margin-left: 30rem;
+}
+header nav a{
+  display: inline-block;
+  background: rgba(10,10,102,0.6);
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-right: 7rem;
+  padding:2rem 3rem;
+  text-decoration: none;
+  color: rgb(255,255,255);
+  border-radius: 15px;
+}
+nav .active{
+  background-color: rgba(10,10,102,1);
+}
+nav a:hover{
+  border-radius: 0px;
+  font-size: 120%;
+}
+.left{
+  display: inline-block;
+  float: left;
+  background: rgb(106,106,212);
+  width: 18rem;
+  height:60rem;
+  text-align: center;
+  color: rgb(255,255,255);
+  font-size: 125%;
+}
+.left:hover{  background: rgba(106,106,212,0.9);
+}
+.left img{
+  width: 50%;
+
+}
+.right{
+  clear:both;
+  display: inline-block;
+  background: rgba(46,46,155,0.4);
+  width: 75rem;
+  height: 60rem;
+  padding-right: 0.72rem;
+  padding-left: 0.23rem;
+
+}
+#abc{
+  font-size: 125%;
+}
+table{
+  margin-left:  4rem ;
+  padding-top: 4rem;
+  padding-left: 4rem;
+  height: 5rem;
+  font-family:monospace ;
+  width: 60rem;
+  font-size: 125%;
+  line-height: 125%;
+}
+
+ul li{
+  font-size: 125%;
+
+}
+
+table th{
+      background-image: -webkit-linear-gradient(top, rgb(113,113,98), rgb(12,12,102));
+      background-image:    -moz-linear-gradient(top, rgb(113,113,98), rgb(12,12,102));
+      background-image:     -ms-linear-gradient(top,  rgb(113,113,98), rgb(12,12,102));
+      background-image:      -o-linear-gradient(top,  rgb(113,113,98), rgb(12,12,102));
+  border-radius: 15px 15px 0px 0px;
+  border-bottom-width: thick;
+  color: rgb(255,255,255);
+  padding: 1.2rem;
+}
+td a{
+  text-decoration: none;
+  color: rgb(0,0,0)
+
+}
+tr{
+   opacity: 0.8;
+   background: rgba(178,178,255,0.4);
+   text-align: center;
+}
+
+table tr:hover{
+  opacity: 1;
+  background: rgba(178,178,255,0.6);
+}
+td{
+  padding: 0.8rem;
+   background: rgba(178,178,255,0.2);
+   border-radius: 2px;
+    text-shadow: 1px 1px rgb(255,255,255);
+    font-size: 125%;
+  }
+  td:hover{
+    background: rgba(178,178,255,1);
+
+  }
+  #abcde{
+    background: white;
+  }
+  div{
+    border: solid;
+    display: inline-block;
+    width: 100%;
+    height: 3.5rem;
+    margin: 0 auto;
+  }
+
+
+  div i{
+    display: inline-block;
+    margin: 0 auto;
+    float: left;
+    margin: 2%;
+    width:2.5rem ;
+    height:2.5rem;
+    position: relative;
+
+    margin-left: 1.2rem;
+  }
+  #phone{
+    color: white;
+    background:green ;
+    border-radius: 15px;
+    transform: rotate(90,90);
+  }
+
+  #fb{
+    color: blue;
+    background: white;
+    border-radius: 15px;
+  }
+#ig{
+color: rgb(24.71,44.71,60.78);
+background-image: linear-gradient(40deg,#F58529 ,#FEDA77,#DD2A7D,#8134AF,#515BD4) ;
+border-radius: 15px ;
+}
+.achieve{
+  margin-top: 1%;
+  padding-top: 2%;
+}
+.man{
+  height: 700px;
+}
+button{
+  background: rgb(1,1,1);
+  color: rgb(255,255,255);
+  width:90px;
+  height: 40px;
+}
+#light{
+  background: white;
+  color:black;
+}
