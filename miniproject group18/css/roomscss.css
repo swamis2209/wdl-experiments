@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    width: 100% !important;
+   overflow-x: hidden;
+
+
+}
+.navbar-nav li a{
+    margin:10px;
+    font-size: 1.4rem;
+
+}
+.nav-bar a{
+    font-size: 1.9rem;
+    color: darkblue  !important;
+    font-weight: 450;
+
+}
+.nav-bar a:hover{
+    color: orangered !important;
+}
+
+.room{
+    width: 95%;
+    position: relative;
+    left:3%;
+    margin-top:2% !important;
+
+}
+.rooms img{
+    width:133%;
+}
+.lux{
+    position: relative;
+    margin-top: 9%;
+    margin-left:20%;
+    font-size: 3rem;
+    color: orangered;
+
+}
+.luxs{
+    margin-left: 20%;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.suites{
+    margin-top: 10%;
+    margin-left: 15%;
+
+}
+.suites h2{
+    color: orangered;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+.suites::after{
+    content: "";
+   position: absolute;
+   left: 15.4%;
+    background-color: darkblue;
+    width: 100px;
+    height: 3px;
+    border-radius: 50px;
+}
+.column{
+    float: left;
+    margin-left:5% ;
+    margin-top: 5%;
+    width: 27% ;
+    height: 28% ;
+}
+
+
+.section-1{
+    margin-top: 3%;
+    margin-left: 12%;
+
+}
+.room-1{
+    width: 96%;
+    height: 45%;
+    position: relative;
+    margin-left:0%;
+    top:12%;
+    border-radius: 2rem !important;
+
+
+}
+.rooms-1 img{
+    width:110%;
+    height:320px;
+    border-radius: 1.5rem !important;
+}
+.lux-1{
+    position: relative;
+
+    margin-left:8%;
+    font-size: 1.8rem;
+    color: darkblue
+
+}
+.luxs-1{
+    margin-left: 8%;
+    margin-top: 4%;
+    font-size: 1.2rem;
+
+}
+.carousel-control-prev-icon{
+    color:black;
+}
+.btn-warning{
+    width: 22%;
+    height: 52px;
+    border-radius: 10px;
+    margin-left: 8%;
+    margin-top: 4%;
+    background-color:  orangered !important;
+
+}
+.btn-warning a{
+    text-decoration: none !important;
+}
+.btn h5{
+ color: white;
+}
+.pos{
+
+    float:right;
+
+}
+.pos h5{
+    font-size: 1.7rem;
+    color: orangered;
+    font-weight: 700;
+}
+.pos p{
+ font-size: 1.3rem;
+ font-weight: 500;
+}
+.full{
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+.suites-1{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 45%;
+}
+.suites-1::after{
+    content: "";
+   position: absolute;
+   left: 2%;
+    background-color: black;
+    width: 180px;
+    height: 2px;
+    border-radius: 50px;
+}
+
+.col-md-7 h2{
+color: orangered !important;
+font-size: 1.6rem;
+
+}
+.col-md-7 p{
+    color:darkblue;
+    font-weight: 400;
+}
+.col-md-4 h2{
+    color: orangered !important;
+    font-size: 1.6rem;
+}
+.col-md-4 a{
+    color:darkblue;
+    font-weight: 400;
+}
+.col-md-4 a:hover{
+    color:orangered;
+}
+.site-footer{
+    margin-top: 10%;
+}
+.btn-2 h5{
+    color:orangered;
+}
+.icons i{
+    font-size: 22px;
+    padding-left: 8px; ;
+}
+.small {
+    position: relative;
+      left:30% !important;
+
+}
+.locate{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 45%;
+}
+.locate h2{
+    color: orangered;
+    font-weight: bold;
+}
+.locate::after{
+    content: "";
+   position: absolute;
+   left: 1.3%;
+    background-color: darkblue;
+    width: 100px;
+    height: 3px;
+    border-radius: 50px;
+}
+.maps{
+    position: relative;
+    margin-top:4%;
+
+}
